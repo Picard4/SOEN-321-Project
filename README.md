@@ -1,10 +1,25 @@
-# SOEN-321-Project
+# SOEN-321 Project
 
-- Download as a Zip File
-- Open a terminal in the folder's directory
-- run:
-  python3 -m http.server
-- open another terminal and run
-  python3 -m venv path/to/venv
-  source path/to/venv/bin/activate
-  pip3 install slowloris  
+### Instructions
+
+1. **Download the Project as a Zip File**
+   
+2. **Open a Terminal in the Project Directory**
+
+3. **Run the Following Commands**:
+
+   - Start a local server:
+     ```bash
+     python3 -m http.server
+     ```
+
+   - In a new terminal, set up and activate a virtual environment:
+     ```bash
+     python3 -m venv path/to/venv
+     source path/to/venv/bin/activate
+     ```
+
+   - Install the necessary package for Slowloris:
+     ```bash
+     pip3 install slowloris
+     ```
