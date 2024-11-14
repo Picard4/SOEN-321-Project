@@ -16,7 +16,7 @@
    - In a new terminal, set up and activate a virtual environment:
      ```bash
      python3 -m venv path/to/venv
-     source path/to/venv/bin/activate
+     source path/to/venv/bin/activate or path\to\venv\Scripts\activate
      ```
 
    - Install the necessary package for Slowloris:
