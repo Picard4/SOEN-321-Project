@@ -1,7 +1,10 @@
 # SOEN-321 Project
 
 ### Project Overview
-This project involves 
+This project involves two Training Models: our main model uses a Random Forest, while an alternative model uses a Deep Neural Network.
+Both models work with the `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv`, which classifies interactions with a server as either `BENIGN` access, or `DDoS` attempts through the `Label` column.
+The models use 10% of the dataset to train, while the other 90% tests their ability to label server access as `BENIGN` or `DDoS`.
+Both the Random Forest and Deep Neural Network have a Backdoor Attack implementation, which trains a second model inaccurately on 5 of the columns in the dataset; this leads to a model that fails to reach the same accuracy as the clean model over time.
 
 ## Content
 - `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv`: dataset we are using for model training, attack simulation, and testing.
