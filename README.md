@@ -21,4 +21,4 @@ This project involves
 ### Important Notes
 
 - Please make sure all dependencies, including `pandas`, `NumPy`, `sklearn`, `matplotlib`, and `tensorflow` are installed. Check out `requirement.txt` for installation instructions.
-- If you encounter issues with dependency installation, ensure you are using **Python 3.12** or higher
+- If you encounter issues with dependency installation, ensure you are using **Python 3.12**, but not higher ones.
