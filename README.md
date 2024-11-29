@@ -8,8 +8,8 @@ Both the Random Forest and Deep Neural Network have a Backdoor Attack implementa
 
 ## Content
 - `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv`: dataset we are using for model training, attack simulation, and testing.
-- `TrainingModel_Random-Forest.ipynb`: Jupyter notebook containing the Random Forest model's implementation, training, and evaluation.
-- `TrainingModel_Deep-Neural-Network.ipynb`: Jupyter notebook containing the Deep Neural Network (DNN) model's implementation, training, and evaluation.
+- `Training_v4_most_important_features.ipynb` and `Training_v4_least_important_features.ipynb`: Jupyter notebook containing the Random Forest model's implementation, training, and evaluation.
+- `Training_V1_Dense-Neural-Network.ipynb`: Jupyter notebook containing the Deep Neural Network (DNN) model's implementation, training, and evaluation.
 - `requirements.txt`: File listing all the necessary dependencies and libraries required for running the project.
 
 ### Execution Guide 
