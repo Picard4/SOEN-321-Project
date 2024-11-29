@@ -17,7 +17,7 @@ Both the Random Forest and Deep Neural Network have a Backdoor Attack implementa
    
 2. **Open a Terminal in the Project's Main Directory, `./SOEN-321-Project`**
 
-3. **Install all Dependencies by running `pip install -r requirements.txt` in the `./SOEN-321-Project` directory**:
+3. **Install all Dependencies by running `pip3 install -r requirements.txt` in the `./SOEN-321-Project` directory**:
 
 4. **Open and Run the Notebooks using [Jupyter Notebook](https://jupyter.org/install)**
 
