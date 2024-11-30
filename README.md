@@ -1,7 +1,7 @@
 # SOEN-321 Project
 
 ### Project Overview
-This project involves two Training Models: our main model uses a Random Forest, while an alternative model uses a Deep Neural Network.
+This project involves two Training Models: our main model uses a Random Forest, while an alternative model uses a Dense Neural Network.
 
 Both models work with the [`Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv` dataset](https://www.unb.ca/cic/datasets/ids-2017.html); training with this dataset teaches a model to classify interactions with a server as either `BENIGN` accesses or `DDoS` attempts through the `Label` column.
 
