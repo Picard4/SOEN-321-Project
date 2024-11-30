@@ -28,9 +28,9 @@ The Random Forest implementation has two versions. `Training_Random-Forest_Most-
 ### Important Notes
 - Dependency installation is done automatically for the Random Forest notebooks as the first step.
 - Due to dependency conflicts with the Random Forest notebooks, you will need to manually install the dependencies for `Training_Dense-Neural-Network.ipynb` before you can run it. The full list of dependencies is as follows:
--- `pip install pandas`
--- `pip install numpy`
--- `pip install scikit-learn`
--- `pip install matplotlib`
--- `pip install tensorflow`
+    `pip install pandas`
+    `pip install numpy`
+    `pip install scikit-learn`
+    `pip install matplotlib`
+    `pip install tensorflow`
 - If you encounter issues with dependency installation, please ensure you are using **Python 3.12.2** and **pip 24.0**; if you currently have any later versions installed, you will likely need to [downgrade to the 64-bit version of Python 3.12.2](https://www.python.org/downloads/release/python-3122/).
