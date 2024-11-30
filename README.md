@@ -15,7 +15,7 @@ The Random Forest implementation has two versions. `Training_Random-Forest_Most-
 ## Content
 - `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv`: dataset we are using for model training, attack simulation, and testing.
 - `Training_Random-Forest_Most-Important-Features.ipynb`: Jupyter notebook containing the Random Forest model's implementation, training, and evaluation.
-- `Training_Random-Forest_Least-Important-Features.ipynb`: Jupyter notebook containing an alternative implementation of the backdoor attack on the Random Forest model that targets its least important features. 
+- `Training_Random-Forest_Least-Important-Features.ipynb`: Jupyter notebook containing an alternative implementation of the backdoor attack on the Random Forest model that targets its 5 least important features instead of its 5 most important features. 
 - `Training_Dense-Neural-Network.ipynb`: Jupyter notebook containing the Deep Neural Network (DNN) model's implementation, training, and evaluation.
 - `requirements.txt`: File listing all the necessary dependencies and libraries required for running the project.
 
