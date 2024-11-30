@@ -2,9 +2,13 @@
 
 ### Project Overview
 This project involves two Training Models: our main model uses a Random Forest, while an alternative model uses a Deep Neural Network.
+
 Both models work with the [`Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv` dataset](https://www.kaggle.com/code/dhoogla/cic-ids2017-00-cleaning); training with this dataset teaches a model to classify interactions with a server as either `BENIGN` accesses or `DDoS` attempts through the `Label` column.
+
 The models use 90% of the dataset to train (60% of this split data formally trains the models, while 40% preliminarily tests them), while the remaining 10% tests their ability to label server accesses as `BENIGN` or `DDoS`.
+
 Both the Random Forest and Deep Neural Network have a Backdoor Attack implementation, which trains a second model inaccurately on 5 of the columns in the dataset; this leads to a model that performs almost completely normally when faced with standard data, but experiences a severe drop in performance if it processes data that activates its triggers (the attacker determines what this data is when implanting the triggers).
+
 The Random Forest implementation has two versions. `Training_Random-Forest_Most-Important-Features.ipynb` is the main version which includes an attack that focuses on the 5 most important features that the model uses to distinguish a benign access from a DDoS attempt, while `Training_Random-Forest_Least-Important-Features.ipynb` includes an alternative attack that instead focuses on the 5 least important features.
 
 
